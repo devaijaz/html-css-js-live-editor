@@ -1,0 +1,20 @@
+.editor {
+    background-color: black;
+    height:100%;
+    width:100%;
+    color: white;
+    padding: 10px;
+}
+.pane {
+    height: 50vh;
+    overflow: hidden;
+    resize: vertical;
+}
+.bottom-pane {
+    border-top: solid 2px blue;
+    background-color: azure;
+}
+.top-pane {
+    display: flex;
+    gap: 1rem
+}
